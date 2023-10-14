@@ -44,7 +44,7 @@ export default class BitcoinInfo extends React.Component {
     const result = this.state.rate * this.state.value
     return (
       <div>
-        <h1 id="btcInfo">Bitcoins Information</h1>
+        <h1 id="btcInfo">Bitcoin Price Rate</h1>
         <p id="update">Last Update : {this.state.date}</p>
         <p id="today">
           Today's rate : 1 Bitcoin = {Number(this.state.rate).toFixed(2)} USD
